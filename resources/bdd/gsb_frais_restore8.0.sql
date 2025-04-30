@@ -15,6 +15,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+CREATE SCHEMA gsb_frais;
 CREATE USER IF NOT EXISTS 'userGsb'@'localhost' IDENTIFIED BY 'secret';
 GRANT SHOW DATABASES ON *.* TO 'userGsb'@'localhost';
 GRANT ALL PRIVILEGES ON `gsb_frais`.* TO userGsb@localhost;
