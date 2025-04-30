@@ -47,7 +47,7 @@ CREATE TABLE `comptable` (
 
 LOCK TABLES `comptable` WRITE;
 /*!40000 ALTER TABLE `comptable` DISABLE KEYS */;
-INSERT INTO `comptable` VALUES ('c0uco','Exam','Test','t.exam','$2y$10$pJpJc4ng0himKiy9oi/iTeYR88eiAiQHlUHuAUGHU/1UWZCruwOLq','t.exam@swiss-galaxy.com','3340');
+INSERT INTO `comptable` VALUES ('d8cOj','Exam','Test','t.exam','$2y$10$pJpJc4ng0himKiy9oi/iTeYR88eiAiQHlUHuAUGHU/1UWZCruwOLq','t.exam@swiss-galaxy.com','3340');
 /*!40000 ALTER TABLE `comptable` ENABLE KEYS */;
 UNLOCK TABLES;
 
